@@ -5,7 +5,7 @@ export default function () {
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap justify-left -m-8 mb-28">
             <div className="w-full md:w-1/2 lg:w-4/12 p-8">
-              <div className="md:max-w-xs"><img className="mb-7" src="images/logo-dark.svg" alt="" />
+              <div className="md:max-w-xs"><img className="mb-7" src="https://placehold.co/60x60" alt="" />
                 <p className="text-gray-400 font-medium">IgClone Description here</p>
               </div>
             </div>

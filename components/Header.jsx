@@ -13,7 +13,11 @@ export default function () {
           <div className="w-auto p-2">
             {/* logo */}
             <div className="flex flex-wrap items-center">
-              <div className="w-auto"><a className="relative z-10 inline-block" href="/"><img src="https://placehold.co/60x60" alt="" /></a></div>
+              <div className="w-auto">
+                <a className="relative z-10 inline-block" href="/">
+                  <img src="https://placehold.co/60x60" alt="" />
+                </a>
+              </div>
             </div>
           </div>
           <div className="w-auto p-2">
