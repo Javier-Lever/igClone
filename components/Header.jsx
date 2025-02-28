@@ -28,7 +28,7 @@ export default function () {
 
               <div className="w-auto hidden lg:block">
                 <div className="inline-block">
-                  <Link className="inline-block px-8 py-4 text-gray-200 hover:text-white tracking-tighter hover:bg-gray-400 border-2 border-white focus:border-gray-400 focus:border-opacity-40 hover:border-gray-400 focus:ring-4 focus:ring-gray-400 focus:ring-opacity-40 rounded-full transition duration-300" href="/register">
+                  <Link className="inline-block px-8 py-4 text-gray-200 hover:text-white tracking-tighter hover:bg-gray-400 border-2 border-white focus:border-gray-400 focus:border-opacity-40 hover:border-gray-400 focus:ring-4 focus:ring-gray-400 focus:ring-opacity-40 rounded-full transition duration-300" href="/auth/register">
                     Register
                   </Link>
                 </div>
@@ -36,7 +36,7 @@ export default function () {
 
               <div className="w-auto hidden lg:block">
                 <div className="inline-block">
-                  <Link className="inline-block px-8 py-4 text-white hover:text-black tracking-tighter hover:bg-green-400 border-2 border-white focus:border-green-400 focus:border-opacity-40 hover:border-green-400 focus:ring-4 focus:ring-green-400 focus:ring-opacity-40 rounded-full transition duration-300" href="/login">Login</Link></div>
+                  <Link className="inline-block px-8 py-4 text-white hover:text-black tracking-tighter hover:bg-green-400 border-2 border-white focus:border-green-400 focus:border-opacity-40 hover:border-green-400 focus:ring-4 focus:ring-green-400 focus:ring-opacity-40 rounded-full transition duration-300" href="/auth/login">Login</Link></div>
               </div>
 
               <div className="w-auto lg:hidden">
@@ -75,11 +75,11 @@ export default function () {
 
             {/* Btn */}
             <div className="flex flex-col justify-end w-full pb-8 gap-5">
-              <Link className="inline-block px-8 py-4 text-center text-white hover:text-white tracking-tighter hover:bg-gray-400 border-2 border-white focus:border-gray-400 focus:border-opacity-40 hover:border-gray-400 focus:ring-4 focus:ring-gray-400 focus:ring-opacity-40 rounded-full transition duration-300" href="/register">
+              <Link className="inline-block px-8 py-4 text-center text-white hover:text-white tracking-tighter hover:bg-gray-400 border-2 border-white focus:border-gray-400 focus:border-opacity-40 hover:border-gray-400 focus:ring-4 focus:ring-gray-400 focus:ring-opacity-40 rounded-full transition duration-300" href="/auth/register">
                 Register
               </Link>
 
-              <Link className="inline-block px-8 py-4 text-center text-white hover:text-black tracking-tighter hover:bg-green-400 border-2 border-white focus:border-green-400 focus:border-opacity-40 hover:border-green-400 focus:ring-4 focus:ring-green-400 focus:ring-opacity-40 rounded-full transition duration-300" href="/login">
+              <Link className="inline-block px-8 py-4 text-center text-white hover:text-black tracking-tighter hover:bg-green-400 border-2 border-white focus:border-green-400 focus:border-opacity-40 hover:border-green-400 focus:ring-4 focus:ring-green-400 focus:ring-opacity-40 rounded-full transition duration-300" href="/auth/login">
                 Login
               </Link>
             </div>
